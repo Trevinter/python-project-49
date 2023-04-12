@@ -17,13 +17,13 @@ def even_game():
             print('Correct!')
         elif int(number) % 2 == 0 and question != "yes":
             counter += 4
-            print("yes' is wrong answer ;(. Correct answer was 'no'.")
+            print("'no' is wrong answer ;(. Correct answer was 'yes'.")
             return ("Let's try again, {name}!")
         elif int(number) % 2 != 0 and question == "no":
             counter += 1
             print('Correct!')
         elif int(number) % 2 != 0 and question != "no":
             counter += 4
-            print("yes' is wrong answer ;(. Correct answer was 'no'.")
+            print("'yes' is wrong answer ;(. Correct answer was 'no'.")
             return (f"Let's try again, {name}!")
     print(f'Congratulations, {name}!')
