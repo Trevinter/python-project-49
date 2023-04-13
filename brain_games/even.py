@@ -12,18 +12,16 @@ def even_game():
         number = str(randint(1, 20))
         question = prompt.string('Question: ' + number)
         print(number)
-        if int(number) % 2 == 0 and question == "yes":
+        if (int(number) % 2 == 0 and question == "yes") or \
+                (int(number) % 2 != 0 and question == "no"):
             counter += 1
             print('Correct!')
         elif int(number) % 2 == 0 and question != "yes":
             counter += 4
-            print("'no' is wrong answer ;(. Correct answer was 'yes'.")
-            return ("Let's try again, {name}!")
-        elif int(number) % 2 != 0 and question == "no":
-            counter += 1
-            print('Correct!')
-        elif int(number) % 2 != 0 and question != "no":
+            print(f"'{question}' is wrong answer ;(. Correct answer was 'yes'.")
+            return print(f"Let's try again, {name}!")
+        else:
             counter += 4
-            print("'yes' is wrong answer ;(. Correct answer was 'no'.")
-            return (f"Let's try again, {name}!")
+            print(f"'{question}' is wrong answer ;(. Correct answer was 'no'.")
+            return print(f"Let's try again, {name}!")
     print(f'Congratulations, {name}!')
