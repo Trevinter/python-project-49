@@ -10,8 +10,8 @@ def evclid(num1, num2):
             num1 = num1 % num2
         else:
             num2 = num2 % num1
-    sum = num1 + num2       
-    return sum 
+    sum = num1 + num2
+    return sum
 
 
 def gcd_game():
