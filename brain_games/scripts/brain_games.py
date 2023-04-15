@@ -4,6 +4,7 @@ from brain_games import calc
 from brain_games import even
 from brain_games import gcd
 from brain_games import progression
+from brain_games import prime
 
 
 def welcome_user():
@@ -26,9 +27,14 @@ def progression_game():
     progression.progression_game()
 
 
+def prime_game():
+    prime.prime_game()
+
+
 if __name__ == '__main__':
     welcome_user()
     calc_game()
     even_game()
     gcd_game()
     progression_game()
+    prime.prime_game()
