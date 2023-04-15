@@ -19,3 +19,7 @@
 ### installing and running the game brain-progression:
 
 [![asciicast](https://asciinema.org/a/iybOzDl14apOsT7yuHgSytaf9.svg)](https://asciinema.org/a/iybOzDl14apOsT7yuHgSytaf9)
+
+### installing and running the game brain-prime:
+
+[![asciicast](https://asciinema.org/a/amlKr4B7ts3e0bMDYwptIqYFn.svg)](https://asciinema.org/a/amlKr4B7ts3e0bMDYwptIqYFn)
