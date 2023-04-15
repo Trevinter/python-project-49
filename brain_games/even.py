@@ -11,7 +11,7 @@ def even_game():
     while counter < 3:
         number = str(randint(1, 20))
         question = prompt.string('Question: ' + number)
-        print(number)
+        print(f'Your answer: {question}')
         if (int(number) % 2 == 0 and question == "yes") or \
                 (int(number) % 2 != 0 and question == "no"):
             counter += 1

@@ -14,6 +14,7 @@ def calc_game():
         num1 = str(randint(1, 20))
         num2 = str(randint(1, 20))
         issue = prompt.string('Question: ' + num1 + rand_operator + num2)
+        print(f'Your answer: {issue}')
         if rand_operator == '+':
             sum = int(num1) + int(num2)
         elif rand_operator == '-':
