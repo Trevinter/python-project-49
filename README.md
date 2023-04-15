@@ -5,12 +5,12 @@
 
 ### installing and running the game brain-even:
 
-[![asciicast](https://asciinema.org/a/Nxnz70EqQvGTWY1vgsiUoXpxT.svg)](https://asciinema.org/a/Nxnz70EqQvGTWY1vgsiUoXpxT)
+[![asciicast](https://asciinema.org/a/MtB1q3c7XPAQ02XnaZ1EKzs7A.svg)](https://asciinema.org/a/MtB1q3c7XPAQ02XnaZ1EKzs7A)
 
 
 ### installing and running the game brain-calc:
 
-[![asciicast](https://asciinema.org/a/tJBfG7NApaFaMxRGbQimnafTM.svg)](https://asciinema.org/a/tJBfG7NApaFaMxRGbQimnafTM)
+[![asciicast](https://asciinema.org/a/F6MI3FcCq03Z5O2ThoNbH6qhj.svg)](https://asciinema.org/a/F6MI3FcCq03Z5O2ThoNbH6qhj)
 
 ### installing and running the game brain-gcd:
 
