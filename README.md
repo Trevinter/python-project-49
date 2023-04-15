@@ -11,3 +11,7 @@
 ### installing and running the game brain-calc:
 
 [![asciicast](https://asciinema.org/a/tJBfG7NApaFaMxRGbQimnafTM.svg)](https://asciinema.org/a/tJBfG7NApaFaMxRGbQimnafTM)
+
+### installing and running the game brain-gcd:
+
+[![asciicast](https://asciinema.org/a/1qnOtTokcXJOyoiNuG4j494aB.svg)](https://asciinema.org/a/1qnOtTokcXJOyoiNuG4j494aB)
