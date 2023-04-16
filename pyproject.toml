@@ -1,11 +1,15 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Brain-games - the package contains five simple mathematics quiz games"
 authors = ["Kirill Babaev <babaevkv89@mail.ru>"]
 readme = "README.md"
 packages = [
   { include = "brain_games" },
+]
+classifiers = [
+    "Topic :: Software Development ::Games/Entertainment",
+    "Topic :: Education"
 ]
 
 [tool.poetry.dependencies]
