@@ -8,8 +8,9 @@ packages = [
   { include = "brain_games" },
 ]
 classifiers = [
-    "Topic :: Software Development ::Games/Entertainment",
-    "Topic :: Education"
+    "Programming Language :: Python :: 3 :: Only",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development ::Games/Entertainment"
 ]
 
 [tool.poetry.dependencies]
