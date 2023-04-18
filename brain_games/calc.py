@@ -12,19 +12,18 @@ def calc_game():
         rand_operator = choice(['+', '-', '*'])
         num1 = str(randint(1, 20))
         num2 = str(randint(1, 20))
-        issue = prompt.string('Question: ' + num1 + rand_operator + num2)
-        print(f'Your answer: {issue}')
+        print('Question: ' + num1 + rand_operator + num2)
+        issue = prompt.string('Your answer:' + " ")
         if rand_operator == '+':
             sum = int(num1) + int(num2)
         elif rand_operator == '-':
             sum = int(num1) - int(num2)
         elif rand_operator == '*':
             sum = int(num1) * int(num2)
-        if str(sum) == issue:
+        if str(sum) == str(issue):
             count += 1
             print('Correct!')
         else:
-            print(f"'{issue}' is wrong answer ;(. Correct answer was '{sum}'.")
+            print(f"'{str(issue)}' is wrong answer ;(. Correct answer was '{sum}'.")
             return print(f"Let's try again, {name}!")
     print(f'Congratulations, {name}!')
- 
