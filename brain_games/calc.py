@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 from random import randint
 from random import choice
 from brain_games import cli
@@ -28,3 +27,4 @@ def calc_game():
             print(f"'{issue}' is wrong answer ;(. Correct answer was '{sum}'.")
             return print(f"Let's try again, {name}!")
     print(f'Congratulations, {name}!')
+ 
