@@ -21,8 +21,8 @@ def prime_game():
     while count < 3:
         number = randint(2, 101)
         num = prime_number(number)
-        issue = prompt.string(f'Question: {number}')
-        print(f'Your answer: {issue}')
+        print(f'Question: {number} ')
+        issue = prompt.string('Your answer:' + " ")
         if num == 'yes' and issue == 'yes':
             count += 1
             print('Correct!')
