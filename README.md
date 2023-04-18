@@ -27,23 +27,23 @@ make package-install
 <a href="https://codeclimate.com/github/Trevinter/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/f1190058555020ba2f72/maintainability" /></a>
 
 
-## installing and running the game brain-even:
+## Running the game brain-even:
 
-[![asciicast](https://asciinema.org/a/MtB1q3c7XPAQ02XnaZ1EKzs7A.svg)](https://asciinema.org/a/MtB1q3c7XPAQ02XnaZ1EKzs7A)
+[![asciicast](https://asciinema.org/a/kgiAKOz8kAlKl9tvJhwN6Dh1j.svg)](https://asciinema.org/a/kgiAKOz8kAlKl9tvJhwN6Dh1j)
 
 
-## installing and running the game brain-calc:
+## Running the game brain-calc:
 
-[![asciicast](https://asciinema.org/a/F6MI3FcCq03Z5O2ThoNbH6qhj.svg)](https://asciinema.org/a/F6MI3FcCq03Z5O2ThoNbH6qhj)
+[![asciicast](https://asciinema.org/a/vFj5r6CEdCBkqJBywziqi3wf7.svg)](https://asciinema.org/a/vFj5r6CEdCBkqJBywziqi3wf7)
 
-## installing and running the game brain-gcd:
+## Running the game brain-gcd:
 
-[![asciicast](https://asciinema.org/a/1qnOtTokcXJOyoiNuG4j494aB.svg)](https://asciinema.org/a/1qnOtTokcXJOyoiNuG4j494aB)
+[![asciicast](https://asciinema.org/a/FUEygIekcjM3cP3UcKOIeXzuF.svg)](https://asciinema.org/a/FUEygIekcjM3cP3UcKOIeXzuF)
 
-## installing and running the game brain-progression:
+## Running the game brain-progression:
 
-[![asciicast](https://asciinema.org/a/iybOzDl14apOsT7yuHgSytaf9.svg)](https://asciinema.org/a/iybOzDl14apOsT7yuHgSytaf9)
+[![asciicast](https://asciinema.org/a/pmICk8lM5oUYC4KJt5EwXtOxs.svg)](https://asciinema.org/a/pmICk8lM5oUYC4KJt5EwXtOxs)
 
-## installing and running the game brain-prime:
+## Running the game brain-prime:
 
-[![asciicast](https://asciinema.org/a/amlKr4B7ts3e0bMDYwptIqYFn.svg)](https://asciinema.org/a/amlKr4B7ts3e0bMDYwptIqYFn)
+[![asciicast](https://asciinema.org/a/MVsE44SfhCXOXy6AI9R0PAr4f.svg)](https://asciinema.org/a/MVsE44SfhCXOXy6AI9R0PAr4f)
