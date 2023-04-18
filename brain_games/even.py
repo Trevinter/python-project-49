@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 from random import randint
 from brain_games import cli
 import prompt
