@@ -21,8 +21,8 @@ def gcd_game():
         num1 = randint(3, 100)
         num2 = randint(3, 100)
         sum = evclid(num1, num2)
-        issue = prompt.string(f'Question: {num1} {num2}')
-        print(f'Your answer: {issue}')
+        print(f'Question: {num1}, {num2} ')
+        issue = prompt.string('Your answer:' + ' ')
         if int(issue) == sum:
             count += 1
             print('Correct!')
