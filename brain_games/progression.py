@@ -13,8 +13,8 @@ def progression_game():
     while count < 3:
         step = randint(2, 10)
         new_num_list = num_list[::step]
-        issue = prompt.string(f'Question: {new_num_list[:10]}')
-        print(f'Your answer: {issue}')
+        print(f'Question: {new_num_list[:10]} ')
+        issue = prompt.string('Your answer:' + " ")
         if int(issue) == step:
             count += 1
             print('Correct!')
