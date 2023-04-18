@@ -9,8 +9,8 @@ def even_game():
     counter = 0
     while counter < 3:
         number = str(randint(1, 20))
-        question = prompt.string('Question: ' + number)
-        print(f'Your answer: {question}')
+        print('Question: ' + number)
+        question = prompt.string('Your answer:' + " ")
         if (int(number) % 2 == 0 and question == "yes") or \
                 (int(number) % 2 != 0 and question == "no"):
             counter += 1
