@@ -7,7 +7,7 @@ rules = 'Find the greatest common divisor of given numbers.'
 def right_answer():
     num1 = randint(3, 100)
     num2 = randint(3, 100)
-    number = str(num1) + ", " + str(num2)
+    number = f'{str(num1)} {str(num2)}'
     while num1 != 0 and num2 != 0:
         if num1 > num2:
             num1 = num1 % num2
