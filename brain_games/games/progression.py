@@ -14,5 +14,4 @@ def right_answer():
     answer = str(number[hidden_num])
     number[hidden_num] = '..'
     number = ' '.join(str(x) for x in number)
-    number = number.replace("..", "\'..\'")
     return str(number), answer
