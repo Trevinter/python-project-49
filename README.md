@@ -42,7 +42,7 @@ make package-install
 
 ## Running the game brain-progression:
 
-[![asciicast](https://asciinema.org/a/pmICk8lM5oUYC4KJt5EwXtOxs.svg)](https://asciinema.org/a/pmICk8lM5oUYC4KJt5EwXtOxs)
+[![asciicast](https://asciinema.org/a/4MTa0kez5HI8nTLmtFdRCjTKg.svg)](https://asciinema.org/a/4MTa0kez5HI8nTLmtFdRCjTKg)
 
 ## Running the game brain-prime:
 
