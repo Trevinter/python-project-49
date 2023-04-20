@@ -9,7 +9,7 @@ def start_game(game):
     print(game.rules)
     while count < 3:
         number, answer = game.right_answer()
-        print('Question: ' + number)
+        print(f'Question: {str(number)}')
         question = prompt.string('Your answer:' + " ")
         if str(answer) == str(question):
             count += 1
