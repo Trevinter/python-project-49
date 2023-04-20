@@ -10,4 +10,7 @@ def right_answer():
     step = randint(2, 10)
     number = num_list[::step]
     number = number[:10]
-    return str(number), step
+    hidden_num = randint(0, len(number) - 1)
+    answer = str(number[hidden_num])
+    number[hidden_num] = '..'
+    return str(number), answer
