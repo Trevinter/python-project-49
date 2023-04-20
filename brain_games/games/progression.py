@@ -13,6 +13,6 @@ def right_answer():
     hidden_num = randint(0, len(number) - 1)
     answer = str(number[hidden_num])
     number[hidden_num] = '..'
-    number = ', '.join(str(x) for x in number)
+    number = ' '.join(str(x) for x in number)
     number = number.replace("..", "\'..\'")
     return str(number), answer
