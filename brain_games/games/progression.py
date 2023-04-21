@@ -1,17 +1,21 @@
 from random import randint
 
 
-rules = 'What number is missing in the progression?'
-num_list = list(range(1, 101))
-len_list = len
+GAME_RULE = 'What number is missing in the progression?'
 
 
-def right_answer():
+def get_sequence(num_list):
     step = randint(2, 10)
     number = num_list[::step]
     number = number[:10]
-    hidden_num = randint(0, len(number) - 1)
-    answer = str(number[hidden_num])
-    number[hidden_num] = '..'
-    number = ' '.join(str(x) for x in number)
-    return str(number), answer
+    return number
+
+
+def get_game():
+    num_list = list(range(1, 101))
+    list_game = get_sequence(num_list)
+    hidden_num = randint(0, len(list_game) - 1)
+    answer = str(list_game[hidden_num])
+    list_game[hidden_num] = '..'
+    game_question = ' '.join(str(x) for x in list_game)
+    return str(game_question), answer
