@@ -1,14 +1,21 @@
 from random import randint
 
 
-rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-no = 'no'
-yes = 'yes'
+GAME_RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def right_answer():
-    number = randint(2, 101)
-    for i in range(2, int(number ** 0.5) + 1):
-        if number % i == 0:
-            return str(number), no
-    return str(number), yes
+def is_even(game_question):
+    for i in range(2, int(game_question ** 0.5) + 1):
+        if game_question % i == 0:
+            return False
+        else:
+            return True
+
+
+def get_game():
+    game_question = randint(2, 101)
+    if is_even(game_question):
+        answer = 'yes'
+    else:
+        answer = 'no'
+    return game_question, answer
