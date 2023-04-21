@@ -15,7 +15,7 @@ def is_even(game_question):
 def get_game():
     game_question = randint(2, 101)
     if is_even(game_question):
-        answer = 'yes'
-    else:
         answer = 'no'
+    else:
+        answer = 'yes'
     return game_question, answer
