@@ -8,14 +8,13 @@ def is_even(game_question):
     for i in range(2, int(game_question ** 0.5) + 1):
         if game_question % i == 0:
             return False
-        else:
-            return True
+    return True
 
 
 def get_game():
     game_question = randint(2, 101)
     if is_even(game_question):
-        answer = 'no'
-    else:
         answer = 'yes'
+    else:
+        answer = 'no'
     return game_question, answer
