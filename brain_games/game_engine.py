@@ -11,11 +11,10 @@ def start_game(game):
         game_question, answer = game.get_game()
         print(f'Question: {str(game_question)}')
         question = prompt.string('Your answer:' + " ")
-        if str(answer) == str(question):
+        if str(answer) == str(question.lower()):
             count += 1
             print('Correct!')
         else:
-            count += 4
             print(f"'{question}' is wrong answer ;(."
                   f"Correct answer was '{answer}'.")
             return print(f"Let's try again, {name}!")

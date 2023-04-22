@@ -8,13 +8,11 @@ GAME_RULE = 'What is the result of the expression?'
 def get_answer(rand_operator, num1, num2):
     if rand_operator == '+':
         sum = int(num1) + int(num2)
-        return sum
     elif rand_operator == '-':
         sum = int(num1) - int(num2)
-        return sum
-    elif rand_operator == '*':
+    else:
         sum = int(num1) * int(num2)
-        return sum
+    return sum
 
 
 def get_game():
